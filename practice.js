@@ -61,19 +61,23 @@
 
 //Arrays
 
-const numbers=[1,"7",6,8,9,0]
+
 // console.log(numbers.sort())
 // numbers.push(80)
 // numbers[3]=90
 
 //Map
-const result=numbers.map(num=>num+2)
-console.log(result)
-console.log(numbers)
+// const result=numbers.map(num=>num+2)
+// console.log(result)
+// console.log(numbers)
 //Filter
-
+// const numbers=[1,7,6,8,9,0]
+//  const div=numbers.filter(num=>num/2)
+//  console.log("after filtering",div)
+//  console.log("original array",numbers)
 
 //Reduce
-
-
+ const numbers=[1,7,6,8,9,0]
+ const total=numbers.reduce((total,num)=>total=total+num)
+ console.log(total)
 // console.log(numbers)
